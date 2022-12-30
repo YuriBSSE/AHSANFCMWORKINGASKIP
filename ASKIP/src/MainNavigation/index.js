@@ -24,6 +24,7 @@ const MainNavigation = () => {
     const fcmToken = await messaging().getToken();
     if (fcmToken) {
       // console.log("fcmToken", fcmToken);
+      console.log("fcmToken", fcmToken);
     }
   }
 
